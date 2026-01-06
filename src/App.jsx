@@ -1,17 +1,19 @@
 import './App.css'
-import Footer from './Components/Footer'
-import Header from './Components/Header'
-import Hero from './Components/Hero'
+import { Routes, Route } from 'react-router-dom'
+import Landing from './Components/Landing'
+import SignupPage from './Components/SignupPage'
+import LoginPage from './Components/LoginPage'
+import WelcomePage from './Components/WelcomePage'
+
 function App() {
   return (
     <>
-    <main className='min-h-screen font-manrope bg-linear-to-b from-top to-bottom'>
-      <div className='' >
-        <Header />
-        <Hero />
-        <Footer />
-      </div>
-    </main>
+    <Routes>
+      <Route path='/' element={<Landing />} />
+      <Route path='/signup' element={<SignupPage />} /> 
+      <Route path='/login' element={<LoginPage />} />
+      <Route path='/welcome' element={<WelcomePage />} /> 
+    </Routes>
     </>
   )
 }
