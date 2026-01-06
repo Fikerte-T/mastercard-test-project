@@ -1,16 +1,53 @@
-# React + Vite
+# Test Project
+This project is a web application for an imaginary web tutor. It includes a landing page and authentication pages. The landing page includes a Header, Hero section, and Footer. Authenticatio pages (sign in and log in pages) have basic form validations. When the app runs, the user first sees the landing page. From there, user can signup or log in. After successful login or signup, app redirects to a welcome page. LocalStorage is used to store and retrieve user data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+  - [Links](#links)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Links
+
+- [Solution URL](https://github.com/Fikerte-T/masterkey-test-project)
+
+
+
+## Built with
+
+- Semantic HTML5 markup
+- React
+- Tailwindcss
+
+## Getting Started
+
+1. To get a local copy up and running follow these simple steps.
+```bash
+git clone git@github.com:Fikerte-T/masterkey-test-project.git
+```
+2. To install npm, run the following command in your terminal, in the project directory
+```bash
+npm install
+```
+3. To run the app in the development mode
+ ```bash
+ npm run dev
+ ```
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+
+
+## Author
+
+- Website - [Fikerte T](https://fikerte-t.github.io/portfolio/)
+- Frontend Mentor - [@Fikerte-T](https://www.frontendmentor.io/profile/Fikerte-T)
+- LinkedIn - [@Fikerte-T](https://www.linkdedin.com/in/fikerte-tesfaye)
+
+
